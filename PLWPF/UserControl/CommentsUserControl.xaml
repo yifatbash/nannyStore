@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="PLWPF.CommentsUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    
+        <StackPanel>
+                <DockPanel LastChildFill="True" HorizontalAlignment="Stretch">
+                <Button x:Name="AddCommentButton" Content="Add"  Margin="15" MinWidth="40" MaxWidth="100" DockPanel.Dock="Right" Height="20" Click="AddCommentButton_Click" >
+                    <Button.Style>
+                        <Style>
+                        <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=CommentTextBox, Path=Text}" Value="">
+                                    <Setter Property="Button.IsEnabled" Value="false"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    
+                </Button>
+                <TextBox x:Name="CommentTextBox" Margin="10" HorizontalAlignment="Stretch" Width="200" MaxHeight="50" TextWrapping="Wrap" DockPanel.Dock="left" VerticalScrollBarVisibility="Visible"  Background="White"/>
+                </DockPanel>
+        <TextBlock x:Name="CommentsTextBlock" Text="{Binding Text, Mode=TwoWay}" Margin="10,4" HorizontalAlignment="Stretch" MaxWidth="260" TextWrapping="Wrap" Background="White"/>
+            </StackPanel>
+
+</UserControl>

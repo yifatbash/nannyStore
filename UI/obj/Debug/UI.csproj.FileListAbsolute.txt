@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.exe.config
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.exe
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\obj\Debug\UI.exe
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\obj\Debug\UI.pdb

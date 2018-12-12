@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="PLWPF.ContractTemplateUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             Loaded="UserControl_Loaded"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Image Grid.Row="0"  Source="/PLWPF;component\Images\Contract.jpg" Height="140" Width="140"/>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center">
+            <Label x:Name="NannyLabel" FontSize="14" FontWeight="Bold" />
+            <Label x:Name="ChildLabel" FontSize="14" FontWeight="Bold" />
+            <Label x:Name="MotherLabel" FontSize="14" FontWeight="Bold" />
+            <Label x:Name="DateLabel" FontSize="14" FontWeight="Bold" />
+            <Label x:Name="SumLabel" FontSize="14" FontWeight="Bold" />
+        </StackPanel>
+        <Label Grid.Row="2" x:Name="id" Content="{Binding ContractId, Mode=OneWay}" HorizontalAlignment="Center" FontSize="14" FontWeight="Bold"/>
+        <Button x:Name="moreDetails" Grid.Row="3" Content="see more details" Click="moreDetails_Click"/>
+    </Grid>
+</UserControl>

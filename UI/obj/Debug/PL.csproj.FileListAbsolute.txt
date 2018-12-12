@@ -1,0 +1,83 @@
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.exe.config
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.exe
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\BE.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\BL.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\DAL.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\DS.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\BE.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\BL.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\bin\Debug\DS.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\obj\Debug\UI.exe
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\UI\obj\Debug\UI.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.exe.config
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.exe
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\UI.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\BE.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\BL.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\DAL.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\DS.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\BE.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\BL.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\bin\Debug\DS.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\obj\Debug\UI.exe
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\UI\obj\Debug\UI.pdb
+C:\Users\user\Desktop\V5\UI\bin\Debug\UI.exe.config
+C:\Users\user\Desktop\V5\UI\bin\Debug\UI.exe
+C:\Users\user\Desktop\V5\UI\bin\Debug\UI.pdb
+C:\Users\user\Desktop\V5\UI\bin\Debug\BE.dll
+C:\Users\user\Desktop\V5\UI\bin\Debug\BL.dll
+C:\Users\user\Desktop\V5\UI\bin\Debug\DAL.dll
+C:\Users\user\Desktop\V5\UI\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\V5\UI\bin\Debug\DS.dll
+C:\Users\user\Desktop\V5\UI\bin\Debug\BE.pdb
+C:\Users\user\Desktop\V5\UI\bin\Debug\BL.pdb
+C:\Users\user\Desktop\V5\UI\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\V5\UI\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\V5\UI\bin\Debug\DS.pdb
+C:\Users\user\Desktop\V5\UI\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\V5\UI\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\V5\UI\obj\Debug\UI.exe
+C:\Users\user\Desktop\V5\UI\obj\Debug\UI.pdb
+C:\Users\user\Desktop\v6\UI\bin\Debug\UI.exe.config
+C:\Users\user\Desktop\v6\UI\bin\Debug\UI.exe
+C:\Users\user\Desktop\v6\UI\bin\Debug\UI.pdb
+C:\Users\user\Desktop\v6\UI\bin\Debug\BE.dll
+C:\Users\user\Desktop\v6\UI\bin\Debug\BL.dll
+C:\Users\user\Desktop\v6\UI\bin\Debug\DAL.dll
+C:\Users\user\Desktop\v6\UI\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\v6\UI\bin\Debug\DS.dll
+C:\Users\user\Desktop\v6\UI\bin\Debug\BE.pdb
+C:\Users\user\Desktop\v6\UI\bin\Debug\BL.pdb
+C:\Users\user\Desktop\v6\UI\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\v6\UI\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\v6\UI\bin\Debug\DS.pdb
+C:\Users\user\Desktop\v6\UI\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\v6\UI\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\v6\UI\obj\Debug\UI.exe
+C:\Users\user\Desktop\v6\UI\obj\Debug\UI.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\UI.exe.config
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\UI.exe
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\UI.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\BE.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\BL.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\DAL.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\DS.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\BE.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\BL.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\bin\Debug\DS.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\obj\Debug\PL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\obj\Debug\UI.exe
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\UI\obj\Debug\UI.pdb

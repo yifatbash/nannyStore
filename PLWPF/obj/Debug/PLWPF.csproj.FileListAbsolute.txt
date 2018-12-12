@@ -1,0 +1,368 @@
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\BE.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\BL.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\DAL.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\DS.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\BE.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\BL.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\bin\Debug\DS.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\AddNannyUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\AddContractUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\AddChildUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\ChildWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\ContractWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\AddMotherUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\ContractTemplateUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\ChildTemplateUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\AddChildWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\AddContractWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\GroupByUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\LinqWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\MotherTemplateUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\MotherWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\AddMotherWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\ChildGroupByBearstMilkUC.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\NannyTemplateUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\NannyWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\AddNannyWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\RemoveMotherUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\UpdateMotherUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\RemoveNannyUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\UpdateNannyUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\RemoveChildUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\UpdateChildUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\RemoveContractUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\UpdateContractUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\ShowAllUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\UserControl\NumericUpDownControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\RemoveChildWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\RemoveContractWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\RemoveMotherWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\RemoveNannyWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\UpdateChildWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\UpdateContractWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\UpdateMotherWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\UpdateNannyWindow.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\UserControl\PlaceAutoCompleteUC.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\App.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\App.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\AddNannyUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\AddContractUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\AddChildUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\ChildWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\ContractWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\AddMotherUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\ContractTemplateUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\ChildTemplateUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\AddChildWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\AddContractWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\GroupByUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\LinqWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\MotherTemplateUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\MotherWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\AddMotherWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\ChildGroupByBearstMilkUC.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\NannyTemplateUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\NannyWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\AddNannyWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\RemoveMotherUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\UpdateMotherUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\RemoveNannyUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\UpdateNannyUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\RemoveChildUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\UpdateChildUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\RemoveContractUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\UpdateContractUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\Linq\ShowAllUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\UserControl\NumericUpDownControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\RemoveChildWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\RemoveContractWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\RemoveMotherWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\RemoveNannyWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\child\UpdateChildWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\contract\UpdateContractWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\mother\UpdateMotherWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\nanny\UpdateNannyWindow.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\UserControl\PlaceAutoCompleteUC.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\PLWPF.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\UserControl\CommentsUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\UserControl\UpdateCommentsUserControl.g.cs
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\UserControl\CommentsUserControl.baml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\PLWPF\obj\Debug\UserControl\UpdateCommentsUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\BE.dll
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\BL.dll
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\DAL.dll
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\DS.dll
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\BE.pdb
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\BL.pdb
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\V5\PLWPF\bin\Debug\DS.pdb
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\nanny\AddNannyUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\UserControl\CommentsUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\contract\AddContractUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\child\AddChildUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\ChildWindow.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\ContractWindow.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\mother\AddMotherUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ContractTemplateUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ChildTemplateUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\GroupByUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\LinqWindow.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\MotherTemplateUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\MotherWindow.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ChildGroupByBearstMilkUC.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\NannyTemplateUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\NannyWindow.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\mother\RemoveMotherUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\mother\UpdateMotherUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\nanny\RemoveNannyUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\nanny\UpdateNannyUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\child\RemoveChildUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\child\UpdateChildUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\contract\RemoveContractUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\contract\UpdateContractUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ShowAllUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\UserControl\UpdateCommentsUserControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\UserControl\NumericUpDownControl.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\UserControl\PlaceAutoCompleteUC.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\App.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\App.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\nanny\AddNannyUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\UserControl\CommentsUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\contract\AddContractUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\child\AddChildUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\ChildWindow.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\ContractWindow.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\mother\AddMotherUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ContractTemplateUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ChildTemplateUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\GroupByUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\LinqWindow.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\MotherTemplateUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\MotherWindow.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ChildGroupByBearstMilkUC.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\NannyTemplateUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\NannyWindow.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\mother\RemoveMotherUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\mother\UpdateMotherUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\nanny\RemoveNannyUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\nanny\UpdateNannyUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\child\RemoveChildUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\child\UpdateChildUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\contract\RemoveContractUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\contract\UpdateContractUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ShowAllUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\UserControl\UpdateCommentsUserControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\UserControl\NumericUpDownControl.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\UserControl\PlaceAutoCompleteUC.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\PLWPF.pdb
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\NannyGroupByChildAgeUC.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\NannyGroupByChildAgeUC.baml
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ContractGroupByDistanceUC.g.cs
+C:\Users\user\Desktop\V5\PLWPF\obj\Debug\Linq\ContractGroupByDistanceUC.baml
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\BE.dll
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\BL.dll
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\DAL.dll
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\DS.dll
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\BE.pdb
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\BL.pdb
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\v6\PLWPF\bin\Debug\DS.pdb
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ContractGroupByDistanceUC.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\NannyGroupByChildAgeUC.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\nanny\AddNannyUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\UserControl\CommentsUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\contract\AddContractUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\child\AddChildUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\ChildWindow.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\ContractWindow.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\mother\AddMotherUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ContractTemplateUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ChildTemplateUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\GroupByUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\LinqWindow.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\MotherTemplateUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\MotherWindow.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ChildGroupByBearstMilkUC.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\NannyTemplateUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\NannyWindow.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\mother\RemoveMotherUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\mother\UpdateMotherUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\nanny\RemoveNannyUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\nanny\UpdateNannyUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\child\RemoveChildUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\child\UpdateChildUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\contract\RemoveContractUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\contract\UpdateContractUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ShowAllUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\UserControl\UpdateCommentsUserControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\UserControl\NumericUpDownControl.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\UserControl\PlaceAutoCompleteUC.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\App.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\App.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ContractGroupByDistanceUC.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\NannyGroupByChildAgeUC.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\nanny\AddNannyUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\UserControl\CommentsUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\contract\AddContractUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\child\AddChildUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\ChildWindow.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\ContractWindow.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\mother\AddMotherUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ContractTemplateUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ChildTemplateUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\GroupByUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\LinqWindow.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\MotherTemplateUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\MotherWindow.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ChildGroupByBearstMilkUC.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\NannyTemplateUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\NannyWindow.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\mother\RemoveMotherUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\mother\UpdateMotherUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\nanny\RemoveNannyUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\nanny\UpdateNannyUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\child\RemoveChildUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\child\UpdateChildUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\contract\RemoveContractUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\contract\UpdateContractUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\Linq\ShowAllUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\UserControl\UpdateCommentsUserControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\UserControl\NumericUpDownControl.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\UserControl\PlaceAutoCompleteUC.baml
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\user\Desktop\v6\PLWPF\obj\Debug\PLWPF.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\BE.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\BL.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\DAL.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\DS.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\BE.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\BL.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\bin\Debug\DS.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ContractGroupByDistanceUC.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\NannyGroupByChildAgeUC.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\nanny\AddNannyUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\UserControl\CommentsUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\contract\AddContractUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\child\AddChildUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\ChildWindow.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\ContractWindow.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\mother\AddMotherUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ContractTemplateUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ChildTemplateUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\GroupByUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\LinqWindow.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\MotherTemplateUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\MotherWindow.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ChildGroupByBearstMilkUC.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\NannyTemplateUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\NannyWindow.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\mother\RemoveMotherUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\mother\UpdateMotherUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\nanny\RemoveNannyUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\nanny\UpdateNannyUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\child\RemoveChildUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\child\UpdateChildUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\contract\RemoveContractUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\contract\UpdateContractUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ShowAllUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\UserControl\UpdateCommentsUserControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\UserControl\NumericUpDownControl.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\UserControl\PlaceAutoCompleteUC.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\App.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\App.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ContractGroupByDistanceUC.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\NannyGroupByChildAgeUC.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\nanny\AddNannyUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\UserControl\CommentsUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\contract\AddContractUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\child\AddChildUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\ChildWindow.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\ContractWindow.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\mother\AddMotherUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ContractTemplateUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ChildTemplateUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\GroupByUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\LinqWindow.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\MotherTemplateUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\MotherWindow.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ChildGroupByBearstMilkUC.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\NannyTemplateUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\NannyWindow.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\mother\RemoveMotherUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\mother\UpdateMotherUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\nanny\RemoveNannyUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\nanny\UpdateNannyUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\child\RemoveChildUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\child\UpdateChildUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\contract\RemoveContractUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\contract\UpdateContractUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\Linq\ShowAllUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\UserControl\UpdateCommentsUserControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\UserControl\NumericUpDownControl.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\UserControl\PlaceAutoCompleteUC.baml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\PLWPF\obj\Debug\PLWPF.pdb

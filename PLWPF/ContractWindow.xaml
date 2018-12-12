@@ -1,0 +1,30 @@
+﻿<Window x:Class="PLWPF.ContractWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="ContractWindow" Height="700" Width="700">
+    <Grid>
+        <TabControl>
+            <TabControl.Items>
+                <TabItem x:Name="AddTabItem" Header="Add" GotFocus="AddTabItem_GotFocus" >
+                    <TabItem.Content>
+                        <local:AddContractUserControl/>
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem x:Name="UpdateTabItem" Header="Update" GotFocus="UpdateTabItem_GotFocus">
+                    <TabItem.Content>
+                        <local:UpdateContractUserControl/>
+                    </TabItem.Content>
+                </TabItem>
+                <TabItem x:Name="RemoveTabItem" Header="Remove" GotFocus="RemoveTabItem_GotFocus">
+                    <TabItem.Content>
+                        <local:RemoveContractUserControl/>
+                    </TabItem.Content>
+                </TabItem>
+            </TabControl.Items>
+        </TabControl>
+    </Grid>
+</Window>

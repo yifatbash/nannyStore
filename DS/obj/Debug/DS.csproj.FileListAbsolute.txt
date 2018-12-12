@@ -1,0 +1,40 @@
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\DS\bin\Debug\DS.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\DS\bin\Debug\DS.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\DS\bin\Debug\BE.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\DS\bin\Debug\BE.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\DS\obj\Debug\DS.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\DS\obj\Debug\DS.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\DS\bin\Debug\DS.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\DS\bin\Debug\DS.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\DS\bin\Debug\BE.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\DS\bin\Debug\BE.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\DS\obj\Debug\DS.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\DS\obj\Debug\DS.pdb
+C:\Users\user\Desktop\V5\DS\bin\Debug\DS.dll
+C:\Users\user\Desktop\V5\DS\bin\Debug\DS.pdb
+C:\Users\user\Desktop\V5\DS\bin\Debug\BE.dll
+C:\Users\user\Desktop\V5\DS\bin\Debug\BE.pdb
+C:\Users\user\Desktop\V5\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\V5\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\V5\DS\obj\Debug\DS.dll
+C:\Users\user\Desktop\V5\DS\obj\Debug\DS.pdb
+C:\Users\user\Desktop\v6\DS\bin\Debug\DS.dll
+C:\Users\user\Desktop\v6\DS\bin\Debug\DS.pdb
+C:\Users\user\Desktop\v6\DS\bin\Debug\BE.dll
+C:\Users\user\Desktop\v6\DS\bin\Debug\BE.pdb
+C:\Users\user\Desktop\v6\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\v6\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\v6\DS\obj\Debug\DS.dll
+C:\Users\user\Desktop\v6\DS\obj\Debug\DS.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\DS\bin\Debug\DS.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\DS\bin\Debug\DS.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\DS\bin\Debug\BE.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\DS\bin\Debug\BE.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\DS\obj\Debug\DS.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\DS\obj\Debug\DS.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\DS\obj\Debug\DS.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\DS\obj\Debug\DS.pdb

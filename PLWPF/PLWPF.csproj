@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C997384-8EBE-4D92-9013-EB85723A4F4A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PLWPF</RootNamespace>
+    <AssemblyName>PLWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Linq\ContractGroupByDistanceUC.xaml.cs">
+      <DependentUpon>ContractGroupByDistanceUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\NannyGroupByChildAgeUC.xaml.cs">
+      <DependentUpon>NannyGroupByChildAgeUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="nanny\AddNannyUserControl.xaml.cs">
+      <DependentUpon>AddNannyUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\CommentsUserControl.xaml.cs">
+      <DependentUpon>CommentsUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="contract\AddContractUserControl.xaml.cs">
+      <DependentUpon>AddContractUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="child\AddChildUserControl.xaml.cs">
+      <DependentUpon>AddChildUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChildWindow.xaml.cs">
+      <DependentUpon>ChildWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ContractWindow.xaml.cs">
+      <DependentUpon>ContractWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mother\AddMotherUserControl.xaml.cs">
+      <DependentUpon>AddMotherUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\ContractTemplateUserControl.xaml.cs">
+      <DependentUpon>ContractTemplateUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\ChildTemplateUserControl.xaml.cs">
+      <DependentUpon>ChildTemplateUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\GroupByUserControl.xaml.cs">
+      <DependentUpon>GroupByUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\LinqWindow.xaml.cs">
+      <DependentUpon>LinqWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\MotherTemplateUserControl.xaml.cs">
+      <DependentUpon>MotherTemplateUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MotherWindow.xaml.cs">
+      <DependentUpon>MotherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\NullToVisibilityConverter.cs" />
+    <Compile Include="Linq\ChildGroupByBearstMilkUC.xaml.cs">
+      <DependentUpon>ChildGroupByBearstMilkUC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\NannyTemplateUserControl.xaml.cs">
+      <DependentUpon>NannyTemplateUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mother\RemoveMotherUserControl.xaml.cs">
+      <DependentUpon>RemoveMotherUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="mother\UpdateMotherUserControl.xaml.cs">
+      <DependentUpon>UpdateMotherUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NannyWindow.xaml.cs">
+      <DependentUpon>NannyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="nanny\RemoveNannyUserControl.xaml.cs">
+      <DependentUpon>RemoveNannyUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="nanny\UpdateNannyUserControl.xaml.cs">
+      <DependentUpon>UpdateNannyUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="child\RemoveChildUserControl.xaml.cs">
+      <DependentUpon>RemoveChildUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="child\UpdateChildUserControl.xaml.cs">
+      <DependentUpon>UpdateChildUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="contract\RemoveContractUserControl.xaml.cs">
+      <DependentUpon>RemoveContractUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="contract\UpdateContractUserControl.xaml.cs">
+      <DependentUpon>UpdateContractUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Linq\ShowAllUserControl.xaml.cs">
+      <DependentUpon>ShowAllUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UpdateCommentsUserControl.xaml.cs">
+      <DependentUpon>UpdateCommentsUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\NumericUpDownControl.xaml.cs">
+      <DependentUpon>NumericUpDownControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\PlaceAutoCompleteUC.xaml.cs">
+      <DependentUpon>PlaceAutoCompleteUC.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Linq\ContractGroupByDistanceUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\NannyGroupByChildAgeUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="nanny\AddNannyUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\CommentsUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="contract\AddContractUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="child\AddChildUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ChildWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ContractWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mother\AddMotherUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\ContractTemplateUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\ChildTemplateUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\GroupByUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\LinqWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\MotherTemplateUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MotherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\ChildGroupByBearstMilkUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\NannyTemplateUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NannyWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Converters\BooleanToNotBooleanConverter.cs" />
+    <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="mother\RemoveMotherUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="mother\UpdateMotherUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="nanny\RemoveNannyUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="nanny\UpdateNannyUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="child\RemoveChildUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="child\UpdateChildUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="contract\RemoveContractUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="contract\UpdateContractUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Linq\ShowAllUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UpdateCommentsUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\NumericUpDownControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\PlaceAutoCompleteUC.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Resource Include="Fonts\Rancho-Regular.ttf" />
+    <None Include="Properties\DataSources\BE.Bank.datasource" />
+    <None Include="Properties\DataSources\BE.Child.datasource" />
+    <None Include="Properties\DataSources\BE.Contract.datasource" />
+    <None Include="Properties\DataSources\BE.Mother.datasource" />
+    <None Include="Properties\DataSources\BE.Nanny.datasource" />
+    <None Include="Properties\DataSources\BE.Schedule.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{c29a21fc-7d8d-43a3-b77f-8b3b59fadc2b}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BL\BL.csproj">
+      <Project>{086c0869-f628-41a9-92b0-94d7d14f47c2}</Project>
+      <Name>BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Mother.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Nanny.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Child.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Contract.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\baby.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

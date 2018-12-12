@@ -1,0 +1,39 @@
+﻿<Window x:Class="PLWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="900"
+        Background="Black">
+    <Window.Resources>
+      
+    </Window.Resources>
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Label x:Name="title" Content="Welcome To Our Nanny DataBase!"  Grid.Row="0"  Style="{StaticResource title}" Foreground="WhiteSmoke" FontSize="36" Margin="15" HorizontalAlignment="Center"/>
+        <Label x:Name="subtitle" Content="Choose Category:" Grid.Row="1" Style="{StaticResource title}" Foreground="WhiteSmoke" Margin="20"  VerticalAlignment="Center"/>
+        <Image Source="/PLWPF;component\Images\baby.png" Width="150" Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Margin="0,15,50,15" HorizontalAlignment="Right" />
+        <Button x:Name="NannyButton" Content="Nanny" Grid.Row="2"  Grid.ColumnSpan="2" FontSize="30" Margin="10" Style="{StaticResource NannyButton}" Click="NannyButton_Click" />
+        <Button x:Name="MotherButton" Content="Mother" Grid.Row="3"  Grid.ColumnSpan="2" FontSize="30" Margin="10" Style="{StaticResource MotherButton}" Click="MotherButton_Click"  />
+        <Button x:Name="ChildButton" Content="Child" Grid.Row="4"  Grid.ColumnSpan="2" FontSize="30" Margin="10" Style="{StaticResource ChildButton}" Click="ChildButton_Click"  />
+        <Button x:Name="ContractButton" Content="Contract" Grid.Row="5"  Grid.ColumnSpan="2" FontSize="30" Margin="10" Style="{StaticResource ContractButton}" Click="ContractButton_Click" />
+        <Button x:Name="LinqButton" Content="Linq" Grid.Row="6"  Grid.ColumnSpan="2" FontSize="30" Margin="10" Style="{StaticResource LinqButton}" Click="LinqButton_Click" />
+    </Grid>
+
+</Window>

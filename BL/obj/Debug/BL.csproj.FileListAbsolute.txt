@@ -1,0 +1,76 @@
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\bin\Debug\BL.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\bin\Debug\BL.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\bin\Debug\BE.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\bin\Debug\DS.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\bin\Debug\BE.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\bin\Debug\DS.pdb
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\obj\Debug\BL.dll
+C:\Users\user\Desktop\מכון טל\שנה ב\סמסטר א\מיני פרוייקט במערכות חלונות\dotNet5778_Project01_6427_9237\BL\obj\Debug\BL.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\BL.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\BL.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\BE.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\DS.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\BE.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\bin\Debug\DS.pdb
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\obj\Debug\BL.dll
+C:\Users\user\Desktop\dotNet5778_Project01_6427_9237\BL\obj\Debug\BL.pdb
+C:\Users\user\Desktop\V5\BL\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\V5\BL\bin\Debug\BL.dll
+C:\Users\user\Desktop\V5\BL\bin\Debug\BL.pdb
+C:\Users\user\Desktop\V5\BL\bin\Debug\BE.dll
+C:\Users\user\Desktop\V5\BL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\V5\BL\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\V5\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\V5\BL\bin\Debug\DS.dll
+C:\Users\user\Desktop\V5\BL\bin\Debug\BE.pdb
+C:\Users\user\Desktop\V5\BL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\V5\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\V5\BL\bin\Debug\DS.pdb
+C:\Users\user\Desktop\V5\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\V5\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\V5\BL\obj\Debug\BL.dll
+C:\Users\user\Desktop\V5\BL\obj\Debug\BL.pdb
+C:\Users\user\Desktop\v6\BL\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\v6\BL\bin\Debug\BL.dll
+C:\Users\user\Desktop\v6\BL\bin\Debug\BL.pdb
+C:\Users\user\Desktop\v6\BL\bin\Debug\BE.dll
+C:\Users\user\Desktop\v6\BL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\v6\BL\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\v6\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\v6\BL\bin\Debug\DS.dll
+C:\Users\user\Desktop\v6\BL\bin\Debug\BE.pdb
+C:\Users\user\Desktop\v6\BL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\v6\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\v6\BL\bin\Debug\DS.pdb
+C:\Users\user\Desktop\v6\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\v6\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\v6\BL\obj\Debug\BL.dll
+C:\Users\user\Desktop\v6\BL\obj\Debug\BL.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\BL.dll.config
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\BL.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\BL.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\BE.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\DAL.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\GoogleMapsApi.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\DS.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\BE.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\DAL.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\bin\Debug\DS.pdb
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\obj\Debug\BL.dll
+C:\Users\user\Desktop\מיני פרוייקט במערכות חלונות\V7\BL\obj\Debug\BL.pdb

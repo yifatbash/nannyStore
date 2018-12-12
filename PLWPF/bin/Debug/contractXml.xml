@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contracts>
+  <contract>
+    <ContractId>10000002</ContractId>
+    <NannyId>2222</NannyId>
+    <ChildId>4242</ChildId>
+    <IsIntroductoryMeeting>False</IsIntroductoryMeeting>
+    <IsSignedContract>False</IsSignedContract>
+    <PayPerHourOrMonth>Month</PayPerHourOrMonth>
+    <WeeklyHours>33</WeeklyHours>
+    <HourlyRate />
+    <MonthlyRate>2550</MonthlyRate>
+    <StartContractDate>23/01/2018 02:19:15</StartContractDate>
+    <EndContractDate>23/01/2019 02:19:15</EndContractDate>
+    <PaidBy>Cash</PaidBy>
+    <NetoRate>2499</NetoRate>
+  </contract>
+  <contract>
+    <ContractId>10000003</ContractId>
+    <NannyId>1111</NannyId>
+    <ChildId>4343</ChildId>
+    <IsIntroductoryMeeting>False</IsIntroductoryMeeting>
+    <IsSignedContract>True</IsSignedContract>
+    <PayPerHourOrMonth>Hour</PayPerHourOrMonth>
+    <WeeklyHours>25</WeeklyHours>
+    <HourlyRate>45</HourlyRate>
+    <MonthlyRate>2950</MonthlyRate>
+    <StartContractDate>23/01/2018 02:19:56</StartContractDate>
+    <EndContractDate>23/01/2019 02:19:56</EndContractDate>
+    <PaidBy>Cash</PaidBy>
+    <NetoRate>4410</NetoRate>
+  </contract>
+  <contract>
+    <ContractId>10000004</ContractId>
+    <NannyId>2222</NannyId>
+    <ChildId>4242</ChildId>
+    <IsIntroductoryMeeting>False</IsIntroductoryMeeting>
+    <IsSignedContract>False</IsSignedContract>
+    <PayPerHourOrMonth>Month</PayPerHourOrMonth>
+    <WeeklyHours>33</WeeklyHours>
+    <HourlyRate />
+    <MonthlyRate>2500</MonthlyRate>
+    <StartContractDate>23/01/2018 02:21:04</StartContractDate>
+    <EndContractDate>23/01/2019 02:21:04</EndContractDate>
+    <PaidBy>Cash</PaidBy>
+    <NetoRate>2500</NetoRate>
+  </contract>
+  <contract>
+    <ContractId>10000005</ContractId>
+    <NannyId>1111</NannyId>
+    <ChildId>5353</ChildId>
+    <IsIntroductoryMeeting>False</IsIntroductoryMeeting>
+    <IsSignedContract>True</IsSignedContract>
+    <PayPerHourOrMonth>Hour</PayPerHourOrMonth>
+    <WeeklyHours>25</WeeklyHours>
+    <HourlyRate>45</HourlyRate>
+    <MonthlyRate>2900</MonthlyRate>
+    <StartContractDate>23/01/2018 02:49:00</StartContractDate>
+    <EndContractDate>23/01/2019 02:49:00</EndContractDate>
+    <PaidBy>BankTransfer</PaidBy>
+    <NetoRate>4410</NetoRate>
+  </contract>
+  <contract>
+    <ContractId>10000006</ContractId>
+    <NannyId>1111</NannyId>
+    <ChildId>4242</ChildId>
+    <IsIntroductoryMeeting>False</IsIntroductoryMeeting>
+    <IsSignedContract>False</IsSignedContract>
+    <PayPerHourOrMonth>Hour</PayPerHourOrMonth>
+    <WeeklyHours>25</WeeklyHours>
+    <HourlyRate>45</HourlyRate>
+    <MonthlyRate>2900</MonthlyRate>
+    <StartContractDate>23/01/2018 22:57:38</StartContractDate>
+    <EndContractDate>23/01/2019 22:57:38</EndContractDate>
+    <PaidBy>Cash</PaidBy>
+    <NetoRate>4500</NetoRate>
+  </contract>
+</contracts>

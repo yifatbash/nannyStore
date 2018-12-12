@@ -1,0 +1,119 @@
+﻿<UserControl x:Class="PLWPF.UpdateMotherUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" 
+             Validation.Error="validation_Error"
+             d:DesignHeight="500" d:DesignWidth="500"
+             Style="{StaticResource motherBackground}">
+    <UserControl.Resources>
+        <local:BooleanToNotBooleanConverter x:Key="BooleanToNotBooleanConverter"/>
+    </UserControl.Resources>
+    <ScrollViewer HorizontalContentAlignment="Center" CanContentScroll="True" PanningMode="HorizontalOnly" SnapsToDevicePixels="True" HorizontalScrollBarVisibility="Visible" DataContext="{Binding}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="title" Content="Update Mother"  Style="{StaticResource motherTitle}" Grid.ColumnSpan="2" Grid.Row="0" Margin="0,5,0,15"/>
+            <StackPanel x:Name="SelectChildIdStackPanel" Grid.Row="1">
+                <Label Content="Select mother" Style="{StaticResource subTitle}" HorizontalAlignment="Center" Margin="3" VerticalAlignment="Center"/>
+                <ComboBox x:Name="motherComboBox" HorizontalAlignment="Center" Height="23" Margin="3" SelectedItem="{Binding Id, Mode=OneTime, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="60" SelectionChanged="motherComboBox_SelectionChanged" />
+            </StackPanel>
+
+            <Grid x:Name="motherDetailsGrid"  HorizontalAlignment="center" Margin="10" Grid.Row="2" VerticalAlignment="Top" IsEnabled="False" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.Style>
+                    <Style>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=motherComboBox, Path=SelectedIndex}" Value="-1">
+                                <Setter Property="Grid.IsEnabled" Value="False"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>
+                <Label Content="* Id:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                <TextBlock x:Name="idTextBlock" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" Text="{Binding Id, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="* First Name:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="1" VerticalAlignment="Center"/>
+                <TextBox x:Name="firstNameTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="1" Text="{Binding FirstName, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="* Last Name:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="2" VerticalAlignment="Center"/>
+                <TextBox x:Name="lastNameTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="2" Text="{Binding LastName, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="* Phone Number:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="3" VerticalAlignment="Center"/>
+                <TextBox x:Name="phoneNumberTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="3" Text="{Binding PhoneNumber, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="* Home Address:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="4" VerticalAlignment="Center"/>
+                <local:PlaceAutoCompleteUC x:Name="homeAddressTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="4" Text="{Binding HomeAddress, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="Wanted Nanny Address:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="5" VerticalAlignment="Center"/>
+                <local:PlaceAutoCompleteUC x:Name="wantedNannyAddressTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="5" Text="{Binding WantedNannyAddress, Mode=TwoWay, ValidatesOnDataErrors=True, NotifyOnValidationError=True, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+                <Label Content="Is Single Mother:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="7" VerticalAlignment="Center"/>
+                <CheckBox x:Name="isSingleMotherCheckBox" Content="" Grid.Column="1" HorizontalAlignment="Left" IsChecked="{Binding IsSingleMother, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="3" Grid.Row="7" VerticalAlignment="Center"/>
+                <Label Content="Status:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="6" VerticalAlignment="Center"/>
+                <ComboBox x:Name="statusComboBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="6" Text="{Binding Status, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+
+                <Expander x:Name="motherSchedule" Header="Mother Scedule" Grid.Row="8" Grid.ColumnSpan="2" Margin="5">
+                    <DataGrid x:Name="motherScheduleDataGrid" ItemsSource="{Binding WantedNannySchedule}"  Grid.Column="0" AutoGenerateColumns="False" Grid.ColumnSpan="2" EnableRowVirtualization="True" Margin="0,3" Grid.Row="3" Grid.RowSpan="7" HorizontalAlignment="Stretch" RowDetailsVisibilityMode="VisibleWhenSelected">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn x:Name="dayColumn" Binding="{Binding Path=Day}" Header="Day" Width="auto" IsReadOnly="True"/>
+                            <DataGridCheckBoxColumn x:Name="isWorkDayColumn" Binding="{Binding Path=IsWorkDay, Mode=TwoWay}" Header="Is Work Day" Width="SizeToHeader"/>
+                            <DataGridTextColumn x:Name="startHourColumn"  Binding="{Binding Path=StartHour, Mode=TwoWay, StringFormat='{}{0:hh\\:mm}'}" Header="Start Hour" Width="SizeToHeader" IsReadOnly="{Binding IsWorkDay, Mode=OneWay, Converter={StaticResource BooleanToNotBooleanConverter}}"/>
+                            <DataGridTextColumn x:Name="endHourColumn" Header="End Hour" Binding="{Binding Path=EndHour, Mode=TwoWay, StringFormat='{}{0:hh\\:mm}'}" Width="SizeToHeader" IsReadOnly="{Binding IsWorkDay, Mode=OneWay, Converter={StaticResource BooleanToNotBooleanConverter}}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Expander>
+
+                <Expander x:Name="commentsExpander" Header="Comments" Grid.ColumnSpan="2" Grid.Row="9" HorizontalAlignment="Stretch" Margin="5" >
+                    <local:UpdateCommentsUserControl Text="{Binding Comments, Mode=TwoWay}"/>
+                </Expander>
+                
+                <Label Content="* = Required fields" Grid.ColumnSpan="2" Grid.Row="10" FontWeight="Bold" HorizontalAlignment="Center"/>
+
+                <Button x:Name="UpdateMotherButton" Content="Update" Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" FontSize="16" Margin="15" Click="UpdateMotherButton_Click">
+                <Button.Style>
+                    <Style>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=firstNameTextBox, Path=Text}" Value="">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=lastNameTextBox, Path=Text}" Value="">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=homeAddressTextBox, Path=Text}" Value="{x:Null}">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=homeAddressTextBox, Path=Text}" Value="">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=statusComboBox, Path=SelectedIndex}" Value="-1">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=phoneNumberTextBox, Path=Text}" Value="">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                    </Button>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

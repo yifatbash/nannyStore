@@ -1,0 +1,236 @@
+﻿<UserControl x:Class="PLWPF.AddNannyUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             xmlns:BE="clr-namespace:BE;assembly=BE"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             Validation.Error="validation_Error"
+             d:DesignHeight="600" d:DesignWidth="630"
+    Style="{StaticResource nannyBackground}">
+    <UserControl.Resources>
+        <local:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        <local:BooleanToNotBooleanConverter x:Key="BooleanToNotBooleanConverter"/>
+    </UserControl.Resources>
+    <ScrollViewer HorizontalContentAlignment="Center" CanContentScroll="True" PanningMode="HorizontalOnly" SnapsToDevicePixels="True" HorizontalScrollBarVisibility="Visible" DataContext="{Binding}">
+        <Grid HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="title" Content="Add Nanny" Style="{StaticResource nannyTitle}" Grid.ColumnSpan="2" Grid.Row="0" Margin="0,5,0,0"></Label>
+
+            <Grid x:Name="NannyDetailsGrid" HorizontalAlignment="Left" Margin="15" Grid.Row="1" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Label Content="* Id:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                <TextBox x:Name="idTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" Text="{Binding Path=Id, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" VerticalAlignment="Center" Width="100"/>
+                <Label Content="* First Name:" VerticalAlignment="Center" Grid.Row="1" Margin="1" HorizontalAlignment="Left" Grid.Column="0" />
+                <TextBox x:Name="firstNameTextBox" Width="100" VerticalAlignment="Bottom" Grid.Row="1" Margin="3" Height="23" HorizontalAlignment="Left" Grid.Column="1" Text="{Binding Path=FirstName, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}"/>
+                <Label Content="* Last Name:" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left" Margin="0,3" VerticalAlignment="Center"/>
+                <TextBox x:Name="lastNameTextBox" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Text="{Binding Path=LastName, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" VerticalAlignment="Center" Width="100"/>
+                <Label Content="* Phone Number:" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Left" Margin="1" VerticalAlignment="Center"/>
+                <TextBox x:Name="phoneNumberTextBox" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Text="{Binding Path=PhoneNumber, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" VerticalAlignment="Center" Width="100"/>
+                <Label Content="* Birth Date:" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Left" Margin="3"  VerticalAlignment="Center"/>
+                <DatePicker x:Name="birthDateDatePicker" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" Margin="3" SelectedDate="{Binding Path=BirthDate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" VerticalAlignment="Center"/>
+                <Label Content="* Address:" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Top"/>
+                <local:PlaceAutoCompleteUC x:Name="AddressUC" Grid.Row="5" Grid.Column="1" Height="25" Width="200" Text="{Binding Path=Address, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"/>
+                <Label Content="Floor:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="6" VerticalAlignment="Center"/>
+                <local:NumericUpDownControl x:Name="floorUC" Grid.Column="1" HorizontalAlignment="Left" Margin="3" Grid.Row="6" Value="{Binding Path=Floor, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" VerticalAlignment="Center" />
+                <Label Content="Is Elevator:" Grid.Row="7" Grid.Column="0" HorizontalAlignment="Left" Margin="3" VerticalAlignment="Center"/>
+                <CheckBox x:Name="isElevatorCheckBox" Content=""  Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left" IsChecked="{Binding Path=IsElevator, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" Margin="3" VerticalAlignment="Center"/>
+            </Grid>
+            <StackPanel Grid.Row="1" Grid.Column="1">
+                <StackPanel x:Name="ChildrenDetailsStackPanel" HorizontalAlignment="Left" VerticalAlignment="Stretch" Grid.Row="1" Grid.Column="1" Margin="15">
+                    <Label Content="Children Details" Style="{StaticResource subTitle}" HorizontalAlignment="Left" Margin="15,0"/>
+                    <Grid x:Name="maxNumOfChildrenGrid" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left" Margin="5,3" VerticalAlignment="Top">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="Max Num Of Children:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                        <local:NumericUpDownControl x:Name="maxNumOfChildren" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" Value="{Binding Path=MaxNumOfChildren, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" VerticalAlignment="Center" MinValue="1"/>
+                    </Grid>
+                    <StackPanel x:Name="agesStackPanel" Orientation="Horizontal" Margin="5,3">
+                        <Label x:Name="ageTextBox"  Content="Children Ages:" />
+                        <local:NumericUpDownControl x:Name="MinAge"  Margin="3"  Value="{Binding Path=MinAge, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" MinValue="3"/>
+                        <Label Content="-" />
+                        <local:NumericUpDownControl x:Name="MaxAge"  Margin="3" Value="{Binding Path=MaxAge, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" MinValue="{Binding ElementName=MinAge, Path=Value, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" MaxValue="36" />
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel x:Name="paymentDetailsStackPanel"   HorizontalAlignment="Left" Grid.Row="1" Grid.Column="1" Margin="15,15,15,0">
+                    <Label Content="Payment Details" Style="{StaticResource subTitle}" HorizontalAlignment="Left" Margin="15,0"/>
+                    <Grid x:Name="MonthlyRateGrid" HorizontalAlignment="Left" Margin="5,3" VerticalAlignment="Top">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="* Monthly Rate:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                        <TextBox x:Name="monthlyRateTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" Text="{Binding Path=MonthlyRate, Mode=TwoWay,NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" VerticalAlignment="Center" Width="80"/>
+                    </Grid>
+                    <Grid x:Name="IsEnablePayForHourGrid" HorizontalAlignment="Left" Margin="5,1" VerticalAlignment="Top">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="Enanble Pay For Hour:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                        <CheckBox x:Name="enanblePayForHourCheckBox" Content="" Grid.Column="1" HorizontalAlignment="Left" IsChecked="{Binding Path=EnanblePayForHour, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" Margin="3" Grid.Row="0" VerticalAlignment="Center" Unchecked="enanblePayForHourCheckBox_Unchecked" />
+                    </Grid>
+                    <Grid x:Name="HourlyRateGrid" HorizontalAlignment="Left" Margin="5,3" VerticalAlignment="Top" Visibility="{Binding ElementName=enanblePayForHourCheckBox, Path=IsChecked, Converter={StaticResource BooleanToVisibilityConverter} }" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Label Content="* Hourly Rate:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                        <TextBox x:Name="hourlyRateTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" Text="{Binding HourlyRate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" VerticalAlignment="Center" Width="80"/>
+                    </Grid>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel x:Name="professionalDetailsStackPanel" Grid.Row="3" Grid.Column="0" Margin="15">
+                <Label Content="Professional Details" Style="{StaticResource subTitle}" HorizontalAlignment="Left" Margin="15,0"></Label>
+                <Grid x:Name="NumberOfExperienceYearsGrid" HorizontalAlignment="Left" Margin="5,0,5,2" Grid.Row="3" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Number Of Experience Years:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                    <local:NumericUpDownControl x:Name="numberOfExperienceYearsNumUpDown"  Grid.Column="1" Value="{Binding NumberOfExperienceYears, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" MaxValue="47"/>
+                </Grid>
+                <Expander x:Name="SpecialActivitiesExpander" Header="Special Activities" Margin="10,5">
+                    <local:CommentsUserControl x:Name="SpecialActivitiesText" Text="{Binding SpecialActivities, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}"/>
+                </Expander>
+                <Expander x:Name="RecommendationsExpander" Header="Recommendations" Margin="10,5" >
+                    <local:CommentsUserControl x:Name="RecommendationsText" Text="{Binding Recommendations, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}"/>
+                </Expander>
+                
+                
+            </StackPanel>
+
+
+            <DockPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="10">
+                <Label Content="* Nanny Schedule" Style="{StaticResource subTitle}" HorizontalAlignment="Left" Margin="15,0" DockPanel.Dock="Top"/>
+                <DataGrid x:Name="nannyScheduleDataGrid" ItemsSource="{Binding NannySchedule}"  Grid.Column="0" AutoGenerateColumns="False" Grid.ColumnSpan="2" EnableRowVirtualization="True" Margin="0,3" Grid.Row="3" HorizontalAlignment="Stretch" RowDetailsVisibilityMode="VisibleWhenSelected">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn x:Name="dayColumn" Binding="{Binding Path=Day}" Header="Day" Width="auto" IsReadOnly="True"/>
+                        <DataGridCheckBoxColumn x:Name="isWorkDayColumn" Binding="{Binding Path=IsWorkDay, Mode=TwoWay}" Header="Is Work Day" Width="SizeToHeader"/>
+                        <DataGridTextColumn x:Name="startHourColumn"  Binding="{Binding Path=StartHour, Mode=TwoWay, StringFormat='{}{0:hh\\:mm}'}" Header="Start Hour" Width="SizeToHeader" IsReadOnly="{Binding IsWorkDay, Mode=OneWay, Converter={StaticResource BooleanToNotBooleanConverter}}"/>
+                        <DataGridTextColumn x:Name="endHourColumn" Header="End Hour" Binding="{Binding Path=EndHour, Mode=TwoWay, StringFormat='{}{0:hh\\:mm}'}" Width="SizeToHeader" IsReadOnly="{Binding IsWorkDay, Mode=OneWay, Converter={StaticResource BooleanToNotBooleanConverter}}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </DockPanel>
+
+            <StackPanel x:Name="moreDetails" Grid.Row="3" Grid.Column="1" Margin="15">
+                <Label Content="More Details" Style="{StaticResource subTitle}" HorizontalAlignment="Left" Margin="15,0"/>
+                <Grid x:Name="KosherFoodGrid" Grid.Column="1"  HorizontalAlignment="Left" Margin="5,3" Grid.Row="1" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Is Kosher Food:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                    <CheckBox x:Name="isKosherFoodCheckBox" Content="" Grid.Column="1" HorizontalAlignment="Left" IsChecked="{Binding IsKosherFood, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                </Grid>
+                <Grid x:Name="ReligiousEducationGrid" Grid.Column="1" HorizontalAlignment="Left" Margin="5,3" Grid.Row="1" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Is Religious Education:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                    <CheckBox x:Name="isReligiousEducationCheckBox" Content="" Grid.Column="1" HorizontalAlignment="Left" IsChecked="{Binding IsReligiousEducation, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                </Grid>
+                <Grid x:Name="VacationGrid" Grid.Column="1" HorizontalAlignment="Left" Margin="5,3" Grid.Row="1" Grid.RowSpan="2" VerticalAlignment="Top">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Is Vacation As TMT:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                    <CheckBox x:Name="isVacationAsTMTCheckBox" Content="" Grid.Column="1" HorizontalAlignment="Left" IsChecked="{Binding IsVacationAsTMT, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+                </Grid>
+                <Expander x:Name="CommentsExpander"  Header="Comments">
+                    <local:CommentsUserControl x:Name="CommentsText" Text="{Binding Comments, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true, ValidatesOnDataErrors=true}"/>
+                </Expander>
+             </StackPanel>
+            <Label Content="* = Required fields" Grid.ColumnSpan="2" Grid.Row="7" FontWeight="Bold" HorizontalAlignment="Center"/>
+            <Button x:Name="AddNannyButton" Content="Add" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Stretch" FontSize="16" Margin="10" Click="AddNannyButton_Click" >
+                <Button.Style>
+                    <Style>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding ElementName=firstNameTextBox, Path=Text}" Value="">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=idTextBox, Path=Text}" Value="0">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=lastNameTextBox, Path=Text}" Value="">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=AddressUC, Path=Text}" Value="{x:Null}">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=AddressUC, Path=Text}" Value="">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=monthlyRateTextBox, Path=Text}" Value="0">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding ElementName=phoneNumberTextBox, Path=Text}" Value="">
+                                <Setter Property="Button.IsEnabled" Value="false"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

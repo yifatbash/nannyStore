@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfChild xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <child>
+    <id>4242</id>
+    <motherId>1212</motherId>
+    <firstName>Tal</firstName>
+    <birthDate>2017-08-08T00:00:00</birthDate>
+    <SpecialNeedsChild>
+      <isSpecialNeedsChild>false</isSpecialNeedsChild>
+      <specialNeedsDescription />
+    </SpecialNeedsChild>
+    <FoodAllergy>
+      <isFoodAllergy>true</isFoodAllergy>
+      <foodAllergyDescription>Milk</foodAllergyDescription>
+    </FoodAllergy>
+    <MedicinesAllergy>
+      <isMedicinesAllergy>false</isMedicinesAllergy>
+      <medicinesAllergyDescription />
+    </MedicinesAllergy>
+    <isBreastMilk>false</isBreastMilk>
+    <comments />
+  </child>
+  <child>
+    <id>4343</id>
+    <motherId>1313</motherId>
+    <firstName>Yael</firstName>
+    <birthDate>15/12/2016 00:00:00</birthDate>
+    <SpecialNeedsChild>
+      <isSpecialNeedsChild>False</isSpecialNeedsChild>
+      <specialNeedsDescription></specialNeedsDescription>
+    </SpecialNeedsChild>
+    <FoodAllergy>
+      <isFoodAllergy>False</isFoodAllergy>
+      <foodAllergyDescription></foodAllergyDescription>
+    </FoodAllergy>
+    <MedicinesAllergy>
+      <isMedicinesAllergy>False</isMedicinesAllergy>
+      <medicinesAllergyDescription></medicinesAllergyDescription>
+    </MedicinesAllergy>
+    <isBreastMilk>False</isBreastMilk>
+    <comments></comments>
+  </child>
+  <child>
+    <id>5353</id>
+    <motherId>1313</motherId>
+    <firstName>Rotem</firstName>
+    <birthDate>2017-09-01T00:00:00</birthDate>
+    <SpecialNeedsChild>
+      <isSpecialNeedsChild>false</isSpecialNeedsChild>
+      <specialNeedsDescription />
+    </SpecialNeedsChild>
+    <FoodAllergy>
+      <isFoodAllergy>false</isFoodAllergy>
+      <foodAllergyDescription />
+    </FoodAllergy>
+    <MedicinesAllergy>
+      <isMedicinesAllergy>false</isMedicinesAllergy>
+      <medicinesAllergyDescription />
+    </MedicinesAllergy>
+    <isBreastMilk>true</isBreastMilk>
+    <comments />
+  </child>
+  <child>
+    <id>5555</id>
+    <motherId>1313</motherId>
+    <firstName>tttt</firstName>
+    <birthDate>2017-09-01T00:00:00</birthDate>
+    <SpecialNeedsChild>
+      <isSpecialNeedsChild>false</isSpecialNeedsChild>
+      <specialNeedsDescription />
+    </SpecialNeedsChild>
+    <FoodAllergy>
+      <isFoodAllergy>false</isFoodAllergy>
+      <foodAllergyDescription />
+    </FoodAllergy>
+    <MedicinesAllergy>
+      <isMedicinesAllergy>false</isMedicinesAllergy>
+      <medicinesAllergyDescription />
+    </MedicinesAllergy>
+    <isBreastMilk>false</isBreastMilk>
+    <comments />
+  </child>
+</ArrayOfChild>

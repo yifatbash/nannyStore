@@ -1,0 +1,65 @@
+﻿<Window x:Class="PLWPF.LinqWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        xmlns:BE="clr-namespace:BE;assembly=BE"
+        mc:Ignorable="d"
+        Title="LinqWindow" Height="auto" Width="auto">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type BE:Nanny}">
+            <Border BorderBrush="#FFF3284D" BorderThickness="3">
+                <local:NannyTemplateUserControl Margin="3"/>
+            </Border>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type BE:Mother}">
+            <Border BorderBrush="#FFF77F06" BorderThickness="3">
+                <local:MotherTemplateUserControl Margin="3"/>
+            </Border>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type BE:Child}">
+            <Border BorderBrush="#FF2DCB14" BorderThickness="3">
+                <local:ChildTemplateUserControl Margin="3"/>
+            </Border>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type BE:Contract}">
+            <Border BorderBrush="#FF183CB8" BorderThickness="3">
+                <local:ContractTemplateUserControl Margin="3"/>
+            </Border>
+        </DataTemplate>
+    </Window.Resources>
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+    <StackPanel>
+        <Menu>
+            <MenuItem Header="Nanny">
+                <MenuItem x:Name="showAllNanny"  Header="Show All" Click="showAllNanny_Click"/>
+                <MenuItem x:Name="showTMTNanny"  Header="Show TMT Nanny" Click="showTMTNanny_Click"/>
+                <MenuItem Header="Group By">
+                    <MenuItem x:Name="groupByChildAge" Header="Child Age" Click="groupByChildAge_Click"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Mother">
+                <MenuItem x:Name="showAllMother" Header="Show All" Click="showAllMother_Click"/>
+                <MenuItem Header="Group By">
+                    <MenuItem x:Name="groupByMotherStatus" Header="Mother Status" Click="groupByMotherStatus_Click"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Child">
+                <MenuItem x:Name="showAllChild"  Header="Show All" Click="showAllChild_Click"/>
+                <MenuItem Header="Group By">
+                    <MenuItem x:Name="childGroupByBearstMilk"  Header="Bearst Milk" Click="childGroupByBearstMilk_Click"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Contract">
+                <MenuItem x:Name="showAllContracts" Header="Show All" Click="showAllContracts_Click"/>
+                <MenuItem Header="Group By">
+                    <MenuItem x:Name="contractGroupByDistance" Header="Distance" Click="contractGroupByDistance_Click"/>
+                    <MenuItem x:Name="contractGroupByRate" Header="Rate" Click="contractGroupByRate_Click"/>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <ContentControl x:Name="page" BorderBrush="Black" BorderThickness="2"/>
+    </StackPanel>
+    </ScrollViewer>
+</Window>
